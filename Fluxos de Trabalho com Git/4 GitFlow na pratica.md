@@ -43,3 +43,19 @@ Criar o release
 
     git merge release
 >>>>>>> Stashed changes
+
+Fazer correcao de bug
+
+    git checkout -b hotfix/correcao-xpto
+
+    git status
+
+    git add .
+
+    git commit -m "correcao"
+
+    git checkout  main
+
+    git merge hotfix/correcao-xpto
+
+    go run main.go
