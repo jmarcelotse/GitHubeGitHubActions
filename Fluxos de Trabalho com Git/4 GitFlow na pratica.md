@@ -59,3 +59,7 @@ Fazer correcao de bug
     git merge hotfix/correcao-xpto
 
     go run main.go
+
+    git checkout develop
+
+    git merge hotfix/correcao-xpto
