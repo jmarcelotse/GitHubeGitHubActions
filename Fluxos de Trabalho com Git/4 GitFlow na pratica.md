@@ -7,3 +7,9 @@
     git init
 
     git branch -m develop
+
+    go mod init jmarcelotse/gitflow
+
+    Criar o arquivo main.go
+
+    go run main.go
