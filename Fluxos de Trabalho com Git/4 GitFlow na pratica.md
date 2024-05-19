@@ -10,6 +10,28 @@
 
     go mod init jmarcelotse/gitflow
 
-    Criar o arquivo main.go
+Criar o arquivo main.go
 
     go run main.go
+
+    git add .
+
+    git checkout -b feature/feature-xpto
+
+Ajusta o codigo
+
+    git status
+
+    git add .
+
+Jogar agora para develop
+
+    git checkout develop
+
+    git branch
+
+    git merge feature/feature-xpto
+
+Criar o release
+
+    git checkout -b release
