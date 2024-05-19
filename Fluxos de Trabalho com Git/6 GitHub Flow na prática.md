@@ -13,3 +13,12 @@ Criar a branch
 Ajustar o codigo na branch
 
 Adicionar
+
+    git checkout -b hotfix/xpto
+    git add .
+    git commit -m "nova hot"
+    git push
+    git push --set-upstream origin hotfix/xpto
+
+     git checkout main
+    git pull
