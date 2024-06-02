@@ -149,3 +149,10 @@ Você configurou seu primeiro workflow no GitHub Actions! Este workflow agora se
 Com esses passos, você deve estar bem equipado para começar a construir e personalizar workflows no GitHub Actions para atender às necessidades do seu projeto.
 
 ###
+
+1. Repositorio
+2. Actions
+3. New workflow
+4. set up a workflow yourself
+5. Editar
+6. Commit
