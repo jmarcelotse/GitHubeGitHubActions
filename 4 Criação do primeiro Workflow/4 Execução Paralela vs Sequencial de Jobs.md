@@ -128,3 +128,5 @@ Neste exemplo, **build**, **test**, e **lint** são executados em paralelo. O jo
 Configurar a execução paralela e sequencial de jobs no GitHub Actions permite que você otimize o fluxo de trabalho de CI/CD para atender às necessidades do seu projeto. Ao combinar essas abordagens, você pode alcançar um equilíbrio entre eficiência e controle, garantindo que seu pipeline seja executado de forma rápida e confiável.
 
 ###
+
+**needs**: [primeiro-job]  # Este job só será executado após a conclusão bem-sucedida do 'primeiro-job'
