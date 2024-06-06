@@ -39,3 +39,27 @@ Os runners são componentes fundamentais do GitHub Actions, fornecendo o ambient
 
 
 ################################
+
+name: Install
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Instalação do FFMPEG
+        run: |
+          sudo apt update -y
+          sudo apt install ffmpeg -y
+      - name: Executar FFMPEG
+        run: |
+          ffmpeg --help
